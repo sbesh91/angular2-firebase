@@ -21,8 +21,8 @@ export class Add {
   }
   add(item: string){
       this.items.push({
-          name: item
+          name: item,
+          state: "void"
       });      
-      item = "";
   }  
 }
